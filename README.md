@@ -26,10 +26,10 @@
   After checking if the point opens to win area, it finds the tiles connected by a path on the current tile with the GetConnectedTiles method.
   It goes over each points(1..7) and finds neighbor tile indexes according the their placement to the current tile.
   Total count of rows and columns are kept in Level.cs. The orders are decided according to the tile index order:
-<br>
-    row4                            
-    row3                            
-    row2                          
-  row1/col1 col2 col3              
+  
+    <br>row4                            
+    <br>row3                            
+    <br>row2                          
+  <br>row1/col1 col2 col3              
 
 * The code can check for levels having different number of tiles as long as row count and column count are provided in Level.
