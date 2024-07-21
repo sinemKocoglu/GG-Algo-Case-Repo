@@ -33,6 +33,7 @@ PathPuzzleCase/remote_config_data
 
 # Asset meta data should only be ignored when the corresponding asset is also ignored
 !/Assets/**/*.meta
+PathPuzzleCase/Assets/Editor/**/*.meta
 
 # Uncomment this line if you wish to ignore the asset store tools plugin
 # /[Aa]ssets/AssetStoreTools*

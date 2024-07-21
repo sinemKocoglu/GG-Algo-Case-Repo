@@ -7,4 +7,11 @@ using UnityEngine;
 public class Tile : MonoBehaviour
 {
     [SerializeField] private List<TilePathData> _tilePathDataList;
+    [SerializeField] public int tileIndex; // tile index and tile name should be compatible!
+
+    public List<TilePathData> TilePathDataList{ 
+        get{return _tilePathDataList;}
+        set{_tilePathDataList=value;}
+    }
+
 }
