@@ -1,6 +1,8 @@
 # PathPuzzleCase
   Sinem Kocoglu
 
+ ![image](https://github.com/user-attachments/assets/e5384c00-8902-469c-8110-90d392fe9d33)
+
 * CheckHealth method works with the Case Level by running the game on unity. 
   I created HealthCheckCaller.cs and attached to LevelHealtChecker object as a component to do it.
 
